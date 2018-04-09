@@ -1,0 +1,46 @@
+* { box-sizing: border-box; }
+ul{
+  margin:0;
+  padding:0;
+  list-style-type: none;}
+a:link{text-decoration: none;
+color:black;}
+
+body{
+	padding:0;
+	margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{ font-size: 62px;}
+
+.container{
+  display: inline-block;
+  margin-top:120px;
+}
+.vertical-nav{
+	background: #ff0;
+	font-size: 24px;
+	width: 140px;
+  height: 100%;
+  float: left;
+}
+
+.issue{
+  background: rgb(215, 255, 169);
+  font-size:48px;
+  height: 100%;
+  width: 290px;
+  float: left;
+  margin-left: 100px;
+}
+
+.artist{
+  color: rgb(173, 173, 173);
+  float: left;
+  font-size: 155px;
+  padding-right: 100px;
+  font-weight: bold;
+  height: 730px;
+}
+
