@@ -47,13 +47,14 @@ margin-top: 30px;
   width: 290px;
   margin-left: 90px;
   position: fixed;
-
+  
 }
 
 .jie-page{
   float: left;
   width: 900px;
   margin-left: 60%;
+  
 }
 
 p{
@@ -80,12 +81,49 @@ p{
 .d1{
   font-size: 200px;
   text-align: left;
-  color:red;
   font-family: serif;
+  -webkit-text-stroke-color: rgb(255, 0, 0);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-fill-color: transparent;
 }
 .d2{
   color: black;
   width: 500px;
   font-size: 20px;
   font-weight: bold;
+  font-family: serif;
 }
+
+
+
+/* marquee animation */
+.quote{
+font-size: 50px;
+-moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: quote 10s linear infinite;
+ -webkit-animation: quote 10s linear infinite;
+ animation: quote 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes quote {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes quote {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes quote {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
