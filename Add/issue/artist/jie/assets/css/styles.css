@@ -59,7 +59,7 @@ margin-top: 30px;
 
 p{
   font-size:28px;
-  margin-bottom: 15px;}
+  margin-bottom: 35px;}
 
  .img_wrap{position: relative;}
 
@@ -123,12 +123,12 @@ top: 0;
 }
 @keyframes quote {
  0%   { 
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
+ -moz-transform: translateX(100%); 
+ -webkit-transform: translateX(100%); 
  transform: translateX(100%); 		
  }
  100% { 
- -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ -moz-transform: translateX(-100%);
+ -webkit-transform: translateX(-100%); 
  transform: translateX(-100%); 
  }

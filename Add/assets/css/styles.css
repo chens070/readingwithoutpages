@@ -28,3 +28,7 @@ margin-top: 30px;
   float: left;
   position: fixed;
 }
+
+a:hover{
+  color:rgb(0, 245, 253);
+}
