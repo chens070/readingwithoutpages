@@ -1,11 +1,18 @@
+/* defult navigation style  */
 * { box-sizing: border-box; }
 ul{
   margin:0;
   padding:0;
-  list-style-type: none;}
-a:link{text-decoration: none;
-color:black;}
-p{margin:0;}
+  list-style-type: none;
+  font-size: 28px;
+  border-top: .5px solid gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+a:link{
+  text-decoration: none;
+  color:black;
+}
 
 body{
 	padding:0;
@@ -15,48 +22,37 @@ body{
 
 .logo{ 
   font-size: 62px;
-position: fixed;
-margin-left: 30px;
-margin-top: 30px;
-}
-
-.container{
-  display: inline-block;
-  margin-top:120px;
+  position: fixed;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .vertical-nav{
   margin-top: 200px;
   margin-left: 30px;
-	font-size: 24px;
-	width: 140px;
+	width: 10%;
   height: 100%;
   float: left;
   position: fixed;
 }
-.button{
-  margin-top: 400px;
-}
+
+a:hover{ color:rgb(0, 245, 253); }
+/* Navigation style end */
 
 
-.artist{
-  float: left;
-  font-size: 155px;
-  text-align: center;
-  font-weight: bold;
-  width: 290px;
-  margin-left: 90px;
-  position: fixed;
-  
-}
+
 
 /* Content starts here */
 .jie-page{
   float: left;
   width: 900px;
-  margin-left: 60%;
-  
+  margin-left: 30%; 
+  margin-top: 80px;
 }
+.chat-name{ 
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid black;}
 
 p {
   font-size:28px;
