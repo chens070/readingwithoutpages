@@ -38,3 +38,80 @@ body{
 
 a:hover{ color:rgb(0, 245, 253); }
 /* Navigation style end */
+
+
+
+/* Content starts here */
+.vincy-page{
+  float: left;
+  width: 900px;
+  margin-left: 30%; 
+  margin-top: 80px;
+}
+.chat-name{ 
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid black;}
+
+p {
+  font-size:28px;
+  margin-bottom: 35px;
+}
+
+.question {
+  font-weight: bold;
+  font-size:28px;
+  margin-left: 3em;
+}
+
+.answer {
+  margin-right: 3em;
+}
+
+.vincy-page p{ 
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+/* bubble style */
+
+
+
+/* marquee animation */
+.quote{
+  font-size: 50px;
+  color: rgb(235, 255, 163);
+  position: fixed;
+  top: 0;
+  width: 1800px;
+  
+  
+  -moz-transform:translateX(100%);
+   -webkit-transform:translateX(100%);	
+   transform:translateX(100%);
+   /* Apply animation to this element */	
+   -moz-animation: quote 8s linear infinite;
+   -webkit-animation: quote 8s linear infinite;
+   animation: quote 8s linear infinite;
+  }
+  /* Move it (define the animation) */
+  @-moz-keyframes quote {
+   0%   { -moz-transform: translateX(100%); }
+   100% { -moz-transform: translateX(-100%); }
+  }
+  @-webkit-keyframes quote {
+   0%   { -webkit-transform: translateX(100%); }
+   100% { -webkit-transform: translateX(-100%); }
+  }
+  @keyframes quote {
+   0%   { 
+   -moz-transform: translateX(100%); 
+   -webkit-transform: translateX(100%); 
+   transform: translateX(100%); 		
+   }
+   100% { 
+   -moz-transform: translateX(-100%);
+   -webkit-transform: translateX(-100%); 
+   transform: translateX(-100%); 
+   }
+  }
