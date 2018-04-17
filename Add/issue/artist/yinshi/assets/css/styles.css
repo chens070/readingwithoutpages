@@ -49,6 +49,7 @@ a:hover{ color:rgb(0, 245, 253); }
   margin-top: 80px;
 }
 .chat-name{ 
+  text-align: center;
   font-size: 30px;
   font-weight: bold;
   border-bottom: 2px solid black;}
@@ -75,7 +76,8 @@ p {
 }
 /* bubble style */
 
-
+.answer img{ width: 100%;}
+}
 
 /* marquee animation */
 .quote{
