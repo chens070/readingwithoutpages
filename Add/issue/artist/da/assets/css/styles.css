@@ -40,7 +40,7 @@ body{
 a:hover{ color:rgb(0, 245, 253); }
 /* Navigation style end */
 
-
+.i1 img{ width: 800px;}
 
 
 /* Content starts here */
@@ -83,6 +83,6 @@ p {
    position: relative; 
   }
 
-  img{ width: 200px; }
+  img{ width: 400px; }
 
 
