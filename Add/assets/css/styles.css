@@ -62,11 +62,11 @@ p {
 .question {
   font-weight: bold;
   font-size:28px;
-  margin-left: 3em;
+  margin-left: 8em;
 }
 
 .answer {
-  margin-right: 3em;
+  margin-right: 8em;
 }
 
 .content-page p{ 
