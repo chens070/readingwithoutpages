@@ -85,3 +85,56 @@ p {
   img{ width: 400px; }
 
 
+/* message animation */
+.message {
+  height: 50px;
+  width: 80px;
+  background-color: #ececec;
+  border-radius: 50px;
+}
+
+.message::before{
+  content: '';
+  border: solid 20px;
+  border-color: transparent transparent #ececec;
+  position: relative;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #aaa;
+  opacity: 0.3;
+  border-radius: 50%;
+  position: relative;
+  -webkit-animation: dots .9s ease-in-out infinite;
+  animation: dots .9s ease-in-out infinite;
+}
+
+.dot.left{
+  margin-left: 12px;
+}
+
+.dot.center {
+  top: -15px;
+  left: 32px;
+  -webkit-animation-delay: 0.3s;
+}
+
+.dot.right {
+  top: -30px;
+  left: 52px;
+  -webkit-animation-delay: 0.6s;
+}
+
+@-webkit-keyframes dots {
+  0%{
+    opacity: 1;
+  }
+}
+
+@keyframes dots {
+  0%{
+    opacity: 1;
+  }
+}
