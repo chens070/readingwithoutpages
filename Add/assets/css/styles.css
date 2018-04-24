@@ -1,18 +1,12 @@
 /* defult navigation style  */
 * { box-sizing: border-box; }
-ul{
-  margin:0;
-  padding:0;
-  list-style-type: none;
-  font-size: 28px;
-  border-top: .5px solid gray;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+
 a:link{
   text-decoration: none;
   color:black;
 }
+a:visited { color: #000000;}
+a:hover{ color:rgb(0, 245, 253); }
 
 body{
 	padding:0;
@@ -23,36 +17,68 @@ body{
 .logo{ 
   font-size: 62px;
   position: fixed;
-  margin-left: 30px;
-  margin-top: 30px;
 }
 
 .vertical-nav{
-  margin-top: 200px;
-  margin-left: 30px;
-	width: 10%;
+  background: #dddddd;
+	width: 15%;
   height: 100%;
   float: left;
   position: fixed;
 }
+.vertical-nav ul{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+  font-size: 28px;
+  border-top: .5px solid gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
 
-a:hover{ color:rgb(0, 245, 253); }
-/* Navigation style end */
 
+.friends{ padding-top: 200px;}
+
+
+a.friends { text-align: center;}
+
+
+
+.column{ display: inline-block; }
 
 
 /* Content starts here */
+
 .content-page{
   float: left;
-  width: 900px;
-  margin-left: 30%; 
-  margin-top: 80px;
+  width: 85%;
+  margin-left: 15%;
 }
+
+.content-page p{ 
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .chat-name{ 
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  border-bottom: 2px solid black;}
+  border-bottom: 2px solid black;
+  padding-top: 30px;
+}
+
+.content{ 
+  padding: 20px 100px 20px 100px;}
+
+.profile img{
+  width: 80px;
+  height: 80px;
+  background: #000000;
+  border-radius: 40px;
+}
 
 p {
   font-size:28px;
@@ -65,24 +91,22 @@ p {
   margin-left: 8em;
 }
 
-.answer {
+
+.answer p{
   margin-right: 8em;
+  background: rgb(231, 231, 231);
 }
 
-.content-page p{ 
-  border-style: solid;
-  border-radius: 10px;
-  padding: 10px;
-}
+
 /* bubble style */
 
 
 
- .img_wrap { 
-   position: relative; 
-  }
 
-  img{ width: 400px; }
+
+
+
+
 
 
 /* message animation */
