@@ -39,3 +39,49 @@ body{
 a:hover{ color:rgb(0, 245, 253); }
 /* Navigation style end */
 
+
+
+/* Content starts here */
+.content-page{
+  float: left;
+  width: 900px;
+  margin-left: 30%; 
+  margin-top: 80px;
+}
+.chat-name{ 
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid black;}
+
+p {
+  font-size:28px;
+  margin-bottom: 35px;
+}
+
+.question {
+  font-weight: bold;
+  font-size:28px;
+  margin-left: 3em;
+}
+
+.answer {
+  margin-right: 3em;
+}
+
+.content-page p{ 
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+/* bubble style */
+
+
+
+ .img_wrap { 
+   position: relative; 
+  }
+
+  img{ width: 400px; }
+
+
