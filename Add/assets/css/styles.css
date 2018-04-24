@@ -26,6 +26,7 @@ body{
   float: left;
   position: fixed;
   border-right: 2px solid #000000;
+  background: #fff;
 }
 .vertical-nav ul{
   margin:0;
@@ -46,9 +47,9 @@ body{
 
 
 
-.jie .n1 { background: #dddddd; }
-.vincy .n2 { background: #dddddd; }
-.da .n3 { background: #dddddd; }
+.jie .n1 { background: #fa0f0f; }
+.vincy .n2 { background: #eeff03; }
+.da .n3 { background: #2df812; }
 .n3{ border-bottom: 2px solid #000000;}
   
 
@@ -67,7 +68,7 @@ body{
 .content-page p{ 
   border-style: solid;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 15px;
 }
 
 .chat-name{ 
@@ -107,13 +108,31 @@ p {
   margin-right: 8em;
   background: rgb(231, 231, 231);
 }
+@media all and (max-width:800px){
+  .answer p{
+    background-color: yellow;
+  }
+}
+
+.answer img{
+  width: 100px;
+}
+.answer.expanded img{
+  width: 100%;
+}
 
 
+.jie .answer p{
+  background:#fa0f0f;
+}
 
 
 /* bubble style */
-
-
+.jie-work{ display:inline-block;}
+.jie-work img{ 
+  width: 50%;
+  float:left;
+}
 
 
 
@@ -186,3 +205,5 @@ p {
   left:55%;
   transform: translate(-50%,-50%);
 }
+
+
