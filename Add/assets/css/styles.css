@@ -17,35 +17,43 @@ body{
 .logo{ 
   font-size: 62px;
   position: fixed;
+  padding:20px;
 }
 
 .vertical-nav{
-  background: #dddddd;
 	width: 15%;
   height: 100%;
   float: left;
   position: fixed;
+  border-right: 2px solid #000000;
 }
 .vertical-nav ul{
   margin:0;
   padding:0;
   list-style-type: none;
   font-size: 28px;
-  border-top: .5px solid gray;
+  border-top: 2px solid #000000;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 30px;
 }
 
 
-.friends{ padding-top: 200px;}
+.friends{ 
+  padding-top: 200px;
+  padding-left:30px;
+}
 
 
-a.friends { text-align: center;}
+
+.jie .n1 { background: #dddddd; }
+.vincy .n2 { background: #dddddd; }
+.da .n3 { background: #dddddd; }
+.n3{ border-bottom: 2px solid #000000;}
+  
 
 
 
-.column{ display: inline-block; }
 
 
 /* Content starts here */
@@ -68,10 +76,13 @@ a.friends { text-align: center;}
   font-weight: bold;
   border-bottom: 2px solid black;
   padding-top: 30px;
+  position: fixed;
+  width: 85%;
+  background: #fff;
 }
 
 .content{ 
-  padding: 20px 100px 20px 100px;}
+  padding: 70px 100px 20px 100px;}
 
 .profile img{
   width: 80px;
@@ -96,6 +107,8 @@ p {
   margin-right: 8em;
   background: rgb(231, 231, 231);
 }
+
+
 
 
 /* bubble style */
@@ -161,4 +174,15 @@ p {
   0%{
     opacity: 1;
   }
+}
+
+
+
+
+
+.message.center{
+  position: absolute;
+  top: 50%;
+  left:55%;
+  transform: translate(-50%,-50%);
 }
