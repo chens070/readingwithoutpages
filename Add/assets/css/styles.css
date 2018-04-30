@@ -127,6 +127,12 @@ p {
 .jie .answer p{
   background:#fa0f0f;
 }
+.vincy .answer p{
+  background:#eeff03;
+}
+.da .answer p{
+  background:#2df812;
+}
 
 
 /* bubble style */
@@ -156,6 +162,13 @@ p {
   border: solid 20px;
   border-color: transparent transparent #ececec;
   position: relative;
+}
+
+.message.center{
+  position: absolute;
+  top: 50%;
+  left:55%;
+  transform: translate(-50%,-50%);
 }
 
 .dot {
@@ -201,11 +214,6 @@ p {
 
 
 
-.message.center{
-  position: absolute;
-  top: 50%;
-  left:55%;
-  transform: translate(-50%,-50%);
-}
+
 
 
