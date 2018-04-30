@@ -38,7 +38,18 @@ body{
   padding-bottom: 20px;
   padding-left: 30px;
 }
-
+@media all and (max-width:900px){
+  .vertical-nav ul{
+    font-size: 16px;
+  }
+}
+@media all and (max-width:560px){
+  .vertical-nav{ 
+    width: 96px; 
+  }
+  .content-page { margin-left:13%;}
+  
+}
 
 .friends{ 
   padding-top: 200px;
@@ -77,13 +88,19 @@ body{
   font-weight: bold;
   border-bottom: 2px solid black;
   padding-top: 30px;
+  padding-bottom: 20px;
   position: fixed;
   width: 85%;
   background: #fff;
 }
 
 .content{ 
-  padding: 70px 100px 20px 100px;}
+  padding: 100px 100px 20px 100px;
+  background: #fff;
+}
+
+  @media all and (max-width:600px){
+    .content{ padding: 100px 10px 20px 50px;}}
 
 .profile img{
   width: 80px;
@@ -109,12 +126,22 @@ p {
   background: rgb(231, 231, 231);
 }
 
-@media all and (max-width:800px){
-  .answer p{
-    background-color: yellow;
+@media all and (max-width:900px){
+  .question{ 
     font-size: 16px;
+    margin-left: 1em;
   }
+  .answer p{
+    font-size: 16px;
+    margin-right: 1em;
+  }
+  
 }
+@media all and (max-width:600px){
+  .question{ margin-left:0;}
+  .answer p{ margin-right: 0;}
+}
+
 
 .answer img{
   width: 100px;
