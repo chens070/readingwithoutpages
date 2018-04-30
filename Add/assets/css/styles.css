@@ -108,9 +108,11 @@ p {
   margin-right: 8em;
   background: rgb(231, 231, 231);
 }
+
 @media all and (max-width:800px){
   .answer p{
     background-color: yellow;
+    font-size: 16px;
   }
 }
 
