@@ -99,6 +99,9 @@ body{
   background: #fff;
 }
 
+  @media all and (max-width:900px){
+    .content{ padding: 100px 10px 20px 30px;}}
+
   @media all and (max-width:600px){
     .content{ padding: 100px 10px 20px 50px;}}
 
